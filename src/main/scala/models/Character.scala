@@ -1,7 +1,9 @@
 package models
 
 import models.Enums._
+import models.Skills.Skills
 import models.Statistics.Statistics
+import models.armor.{Armor, ArmorItem}
 import squants.mass.Mass
 import squants.space.Length
 
@@ -17,6 +19,8 @@ case class Character(
     alignment: Alignment,
     deity: String,
     backGroundOccupation: Option[String],
-    languages: List[Language],
+    languages: Array[Language],
     stats: Statistics,
-    skills: Skills)
+    skills: Skills,
+    armor: Option[ArmorItem],
+    shield: Option[ArmorItem])
