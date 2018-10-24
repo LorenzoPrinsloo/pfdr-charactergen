@@ -1,0 +1,24 @@
+# scala
+target
+
+#IntelliJ
+*.ipr
+*.iws
+.idea
+
+# sbt specific
+.cache/
+.lib/
+dist/*
+lib_managed/
+project/boot/
+project/plugins/project/
+*.log*
+
+#Mac
+.DS_Store
+
+#Ubuntu
+*~
+*.jpg
+*.zip
